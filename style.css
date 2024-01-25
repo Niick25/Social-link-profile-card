@@ -54,10 +54,16 @@ body{
     border-radius: 8px;
     margin-bottom: 16px;
     border: none;
+    transition: transform 500ms;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color: hsl(75, 94%, 57%);
     color: black;
+}
+
+.btn:hover,
+.btn:focus-visible{
+    transform: translateY(-0.20rem);
 }
