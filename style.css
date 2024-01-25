@@ -1,18 +1,24 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+ *{
+    margin: 0;
+ }
+
 body{
     background:hsl(0, 0%, 8%) ;
     text-align: center;
     font-family: "inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
 }
 .card{
     background: hsl(0, 0%, 12%);
     border-radius: 6px;
-    display: inline-block;
     height: 620px;
     width: 375px;
-    margin-top: 25%;
-    margin-bottom: 25%;
 }
 
 .img{
@@ -30,18 +36,19 @@ body{
 .name{
     font-family: "inter";
     font-weight: 600;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 
 .me{
     font-weight: 400;
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .place{
     color: hsl(75, 94%, 57%);
     font-size: 14px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .btn{
@@ -52,7 +59,7 @@ body{
     padding: 14px 20px;
     width: 300px;
     border-radius: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     border: none;
     transition: transform 500ms;
 }
